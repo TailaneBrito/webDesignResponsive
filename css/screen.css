@@ -234,6 +234,28 @@ footer a:hover { color: #000; }
 
     /* Header */
     header { height: 160px; background-image: url(../images/banner_625.jpg); background-position: left top;}
+    header a.logo {
+        width: 100%; height: 66px;
+        left: 0px; top: 0px;
+        background-color: rgba(0,0,0,.65);
+        background-size: 112px 46px;
+        background-position: 20px center; /*center vertically*/
+    }
+
+    header div.hero { width: 300px; top: 85px; left: 130px; }
+    header div.hero h1 { margin-bottom:  10px; }
+
+    /* Main */
+    section.main aside { width: 100%; float: none; text-align: left; }
+    section.main aside div.content { 
+        margin: 8px 20px 8px 0px;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position:  20px 5px;
+    }
+
+    /* Atmosphere */
+    section.atmosphere article { padding: 160px 20px 0px 0px; background-size: 300px auto; min-height: initial; }
 
     /* Navigation */
     nav {position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c;}
